@@ -1,0 +1,20 @@
+body {
+    background-color: cadetblue;
+}
+#boardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    background-color: white;
+}
+
+.boardTile {
+    border: black solid 1px;
+}
+
+.boardToken {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
