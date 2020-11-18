@@ -1,15 +1,32 @@
 body {
-    background-color: cadetblue;
+    background-color: #003d5b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: white;
 }
+
 #boardContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    display: inline-grid;
+    grid-template-columns: repeat(3, 125px);
+    grid-template-rows: repeat(3, 125px);
     background-color: white;
+    justify-content: center;
+}
+
+#outerContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .boardTile {
+    display: flex;
+    justify-content: center;
     border: black solid 1px;
+    color: black;
+}
+
+.boardTile:hover{
+    background-color: rgb(147, 202, 204, 0.5);
 }
 
 .boardToken {
@@ -18,3 +35,39 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#\1{
+    border-right: 3px solid #d8eb0b;
+    border-bottom: 3px solid #F1F4CD;
+}
+
+  #item1{
+    border-right: 3px solid #F1F4CD;
+    border-bottom: 3px solid #F1F4CD;
+  }
+  #item2{
+    border-bottom: 3px solid #F1F4CD;
+  }
+  #item3{
+    border-right: 3px solid #F1F4CD;
+    border-bottom: 3px solid #F1F4CD;
+  }
+  #item4{
+    border-right: 3px solid #F1F4CD;
+    border-bottom: 3px solid #F1F4CD;
+  }
+  #item5{
+    border-bottom: 3px solid #F1F4CD;
+  }
+  #item6{
+    border-right: 3px solid #F1F4CD;
+  }
+  #item7{
+    border-right: 3px solid #F1F4CD;
+  }
+  
