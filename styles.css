@@ -7,15 +7,15 @@ body {
 
 #boardContainer {
     display: inline-grid;
-    grid-template-columns: repeat(3, 125px);
-    grid-template-rows: repeat(3, 125px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     background-color: white;
     justify-content: center;
 }
 
 #outerContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .boardTile {
@@ -41,33 +41,17 @@ h1 {
     justify-content: center;
 }
 
-#\1{
-    border-right: 3px solid #d8eb0b;
-    border-bottom: 3px solid #F1F4CD;
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
-  #item1{
-    border-right: 3px solid #F1F4CD;
-    border-bottom: 3px solid #F1F4CD;
-  }
-  #item2{
-    border-bottom: 3px solid #F1F4CD;
-  }
-  #item3{
-    border-right: 3px solid #F1F4CD;
-    border-bottom: 3px solid #F1F4CD;
-  }
-  #item4{
-    border-right: 3px solid #F1F4CD;
-    border-bottom: 3px solid #F1F4CD;
-  }
-  #item5{
-    border-bottom: 3px solid #F1F4CD;
-  }
-  #item6{
-    border-right: 3px solid #F1F4CD;
-  }
-  #item7{
-    border-right: 3px solid #F1F4CD;
-  }
-  
+#resetButton {
+  margin-right: 20px;
+}
+
+#turnText {
+  display: flex;
+  justify-content: center;
+}

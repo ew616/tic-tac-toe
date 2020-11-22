@@ -12,22 +12,12 @@
 </head>
 <body>
     <h1>Tic Tac Toe!</h1>
-    
-    <div>
-        <h4>Player 1:</h4>
-        <input type='text'>
-
-        <h4>Player 2:</h4>
-        <input type='text'>
-
-        <button id='resetButton'>Reset</button>
-    </div>
-
-
-
-    <br>
 
     <div id='outerContainer'>
+        <!-- <div>
+            <h4 id='playerOneName'>Player 1:</h4>
+        </div> -->
+        
         <div id='boardContainer'>
             <div class='boardTile' id='1'>
                 <h1 class='boardToken'></h1>
@@ -57,8 +47,20 @@
                 <h1 class='boardToken'></h1>
             </div>
         </div>
+
+        <!-- <div>
+            <h4 id='playerTwoName'>Player 2:</h4>
+        </div> -->
     </div>
 
+    <div class='buttons'>
+        <button id='resetButton'>Reset</button>
+        <button id='editNames'>Edit Names?</button>
+    </div>
+
+    <div>        
+        <p id='turnText'></p>
+    </div>
 
 
     <script src="tic-tac.js" type="text/javascript"></script>
