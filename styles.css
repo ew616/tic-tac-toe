@@ -1,44 +1,44 @@
 body {
-    background-color: #003d5b;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    color: white;
+  background-color: #003d5b;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: white;
 }
 
 #boardContainer {
-    display: inline-grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    background-color: white;
-    justify-content: center;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  background-color: white;
+  justify-content: center;
 }
 
 #outerContainer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .boardTile {
-    display: flex;
-    justify-content: center;
-    border: black solid 1px;
-    color: black;
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  color: black;
 }
 
-.boardTile:hover{
-    background-color: rgb(147, 202, 204, 0.5);
+.boardTile:hover {
+  background-color: rgb(147, 202, 204, 0.5);
 }
 
 .boardToken {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .buttons {
